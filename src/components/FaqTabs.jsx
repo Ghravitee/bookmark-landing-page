@@ -40,7 +40,7 @@ const FaqTabs = () => {
             key={index}
             className="flex flex-col gap-4 py-6 border-b border-b-Grayish-Blue"
           >
-            <button
+            <div
               className="flex items-center justify-between cursor-pointer group"
               onClick={() => toggleTab(index)}
             >
@@ -79,7 +79,7 @@ const FaqTabs = () => {
                   activeTab === index ? "rotate-180 duration-300 ease-in" : ""
                 }
               /> */}
-            </button>
+            </div>
             <Collapse isOpened={activeTab === index}>
               <div className="pt-4 text-[1.1rem] text-Grayish-Blue font-normal">
                 {item.content}

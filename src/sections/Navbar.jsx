@@ -134,12 +134,14 @@ const Navbar = () => {
                 </a>
               </li>
               <hr className="h-[.5px] w-full bg-Grayish-Blue opacity-40" />
-              <a
-                href=""
-                className="uppercase px-8 py-3 flex items-center justify-center bg-transparent border-2 border-white rounded-lg text-white mt-10 w-full"
-              >
-                login
-              </a>
+              <li className="w-full">
+                <a
+                  href=""
+                  className="uppercase px-8 py-3 flex items-center justify-center bg-transparent border-2 border-white rounded-lg text-white mt-10 "
+                >
+                  login
+                </a>
+              </li>
             </ul>
           </div>
           <div className="flex items-center justify-center gap-8 mt-auto">
