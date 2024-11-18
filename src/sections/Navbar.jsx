@@ -45,12 +45,14 @@ const Navbar = () => {
               contact
             </a>
           </li>
-          <a
-            href=""
-            className="uppercase px-8 py-2 flex items-center justify-center bg-Soft-Red rounded-lg text-white hover:bg-white hover:text-Soft-Red border-2 hover:border-Soft-Red"
-          >
-            login
-          </a>
+          <li>
+            <a
+              href=""
+              className="uppercase px-8 py-2 flex items-center justify-center bg-Soft-Red rounded-lg text-white hover:bg-white hover:text-Soft-Red border-2 hover:border-Soft-Red"
+            >
+              login
+            </a>
+          </li>
         </ul>
       </nav>
 

@@ -34,8 +34,7 @@ const Contact = () => {
         >
           <div
             className={`${
-              error &&
-              "bg-Soft-Red px-[2px] pt-[2px] w-full lg:w-[60%] rounded-lg"
+              error && "bg-Soft-Red px-[2px] pt-[2px] w-full  rounded-lg"
             }`}
           >
             <input
